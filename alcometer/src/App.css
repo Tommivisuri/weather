@@ -51,4 +51,9 @@ body {
   background-color: pink;
 }
 
+button {
+  size: 15px;
+  border-radius: 10px;
+}
+
 
