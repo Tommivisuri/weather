@@ -59,14 +59,14 @@ return (
     <div class="form-group">
     <label>Gender: </label>
     <div>
-     <input class="form-control" type="radio" name="gender" value="1" 
+     <input class="form-control" type="radio" name="gender" value="1"
        onChange={e => setGender(e.target.value)}></input>
-       <label for="male">Male</label>
+       <label>Male</label>
 
     
       <input class="form-control" type="radio" name="gender" value="2" 
        onChange={e => setGender(e.target.value)}></input>
-       <label for="female">Female</label>
+       <label>Female</label>
     </div>
     </div>
 
